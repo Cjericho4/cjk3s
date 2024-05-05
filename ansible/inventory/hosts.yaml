@@ -1,0 +1,14 @@
+---
+kubernetes:
+  children:
+    controllers:
+      hosts:
+        "k3smaster1":
+          ansible_user: "jericho"
+          ansible_host: "192.168.50.50"
+        "k3smaster2":
+          ansible_user: "jericho"
+          ansible_host: "192.168.50.142"
+        "k3smaster3":
+          ansible_user: "jericho"
+          ansible_host: "192.168.50.52"
